@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Atomic Games - Sobre</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+		<style type="text/css">
+			.logo{
+				background: url(img/logo.png) no-repeat;
+				width: 65px;
+				height: 60px;
+				margin:0;
+				float: left;
+				font-size: 0;
+			}
+			@media screen and (min-width: 768px){
+				.logo{
+					background: url(img/logo1.png) no-repeat;
+					height: 75px;
+					width: 400px;
+				}
+			}
+			.meio{
+				background:url(img/fundosobre.jpg);
+				background-attachment: fixed;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="cabecalho">
+			<a href="index.html"> <h1 class="logo"></h1> </a>
+			<button class="btn-menu"><i class="fa fa-bars fa-lg fa-my"></i></button>
+			<nav class="menu">
+				<a class="btn-close">x</a>
+				<ul class="menul">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="promocoes.html">Últimas Promoções</a></li>
+					<li><a href="jogos.html">Jogos</a></li>
+					<li class="visitado"><a href="sobre.html"><span>Sobre</span></a></li>
+					<li><a href="cadastro.html">Cadastro</a></li>
+					<li><a href="contato.html">Contato</a></li>        	
+	            </ul>
+			</nav>
+		</header>
+			<div class="meio">
+				<h1 class="titulo"><strong>Sobre nós</strong></h1>
+				<p class="escrita">A Atomic Games te possibilita adquirir jogos eletrônicos com uma praticidade e simplicidade que em tempos passados era objeto de sonho da população, mas hoje fará parte do dia a dia.</p>
+				<p class="escrita">Com seu design simples porém efetivo, a Atomic Games apresenta a população geral uma alternativa para a compra de jogos de ultima geração. Com seu layout feito exclusivamente com ambos os consumidores e trabalhadores em mente.</p>
+				<p class="escrita">A instituição será organizada por uma pequena equipe dedicada de funcionários e seguira as normas comuns de segurança durante o trabalho e também está comprometido em prover os funcionários com um ambiente ideal de trabalho, recriando o ideal escritório no mundo real, claro, tudo relativo a condição do momento.</p>
+				<p class="escrita">Nosso objetivo é prover todo aquele que adentar nosso domínio virtual com uma experiência inigualável de praticidade, facilitação do acesso a informação, alto grau de confiabilidade, um atendimento que rivaliza os gigantes da indústria, possibilidade de independente da situação deixar nosso cliente satisfeito com o produto, mesmo que o mesmo não o agrade totalmente.</p>
+				<p class="escrita"><strong>Ramo da empresa: </strong> Empresa online de venda de jogos em mídia digital.</p>
+				<p class="escrita"><strong>Missão: </strong>Simplicidade</p>
+				<p class="escrita"><strong>Visão: </strong>Ser uma empresa reconhecida mundialmente</p>
+				<p class="escrita"><strong>Valores: </strong>Bem estar, compromentimento</p>
+			</div>			
+		 <footer class="rodape"> 
+			<div class="social-icons">
+				<a href="#"><i class="fab fa-facebook-square"></i></a>
+				<a href="#"><i class="fab fa-twitter-square	"></i></a>
+				<a href="#"><i class="fab fa-google"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-envelope"></i></a>
+			</div>
+			<p class="copyright">
+				Copyright © Atomic Games 2019. Todos os diretos reservados até o final do trimestre, uso liberado após o prazo apenas para os criadores do site.
+			</p>
+		</footer> 
+		<script>
+			$(".menu").hide();
+			$(".btn-menu").click(function(){
+				$(".menu").show();
+			});
+			$(".btn-close").click(function(){
+				$(".menu").hide();
+			});
+		</script>	
+	</body>
+</html>
